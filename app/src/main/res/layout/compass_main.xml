@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF"
+    tools:context=".menu_screen">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="276dp"
+        android:background="@drawable/gradient_background" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="35dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="359dp"
+        android:layout_marginBottom="258dp"
+        app:srcCompat="@drawable/menu_bar" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginBottom="257dp"
+        android:text="Compass Tool"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        app:fontFamily="@font/quicksand_bold" />
+
+    <TextView
+        android:id="@+id/DegreeTV"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="211dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="257dp"
+        android:text="See where you are heading..."
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:fontFamily="@font/quicksand_bold" />
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/compass_image"
+        android:layout_width="277dp"
+        android:layout_height="393dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="204dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="67dp"
+        android:src="@drawable/compass_icon" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="653dp"
+        android:layout_marginEnd="287dp"
+        android:layout_marginBottom="48dp"
+        android:text="Trusted Links"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:fontFamily="@font/quicksand_bold" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="335dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/custom_button"
+        android:foreground="@drawable/fb"
+        app:backgroundTint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="277dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/custom_button"
+        android:foreground="@drawable/twt"
+        app:backgroundTint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginEnd="221dp"
+        android:layout_marginBottom="6dp"
+        android:foreground="@drawable/in"
+        app:backgroundTint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/custom_button"
+        android:foreground="@drawable/ig"
+        app:backgroundTint="#FFFFFF" />
+
+</RelativeLayout>

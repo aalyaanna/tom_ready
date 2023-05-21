@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".preparedness_plan_main_screen"
+    tools:ignore="ExtraText">
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="155dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="223dp"
+        android:layout_marginTop="549dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="89dp"
+        android:backgroundTint="#fafafa"
+        android:fontFamily="@font/asap_bold"
+        android:text="Use Surge Protectors"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="471dp"
+        android:layout_height="233dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginBottom="422dp"
+        android:backgroundTint="@color/white"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/on_fire" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="348dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="338dp"
+
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="338dp"
+        android:indeterminate="false"
+        android:max="100"
+        android:minWidth="200dp"
+        android:minHeight="50dp"
+        android:progress="25"
+        android:progressTint="#F44336"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="144dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="317dp"
+        android:layout_marginEnd="237dp"
+        android:layout_marginBottom="379dp"
+        android:fontFamily="@font/asap"
+        android:text="HOUSE FIRE"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="361dp"
+        android:layout_height="111dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="376dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="244dp"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="Learn how to protect yourself and your family from a home fire. Put knowledges into practices and develop habits."
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="476dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="445dp"
+        android:layout_marginBottom="208dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="124dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="257dp"
+        android:layout_marginBottom="186dp"
+        android:text="Essential Activities"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    ]<Button
+    android:id="@+id/callemergencybtn"
+    android:layout_width="342dp"
+    android:layout_height="48dp"
+    android:layout_marginStart="33dp"
+    android:layout_marginTop="648dp"
+    android:layout_marginEnd="36dp"
+    android:layout_marginBottom="35dp"
+    android:backgroundTint="#b70f0a"
+    android:bottomLeftRadius="10dp"
+    android:bottomRightRadius="10dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp"
+    android:text="BACK"
+    android:textColor="@color/white"
+    android:topLeftRadius="10dp"
+    android:topRightRadius="10dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="155dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="549dp"
+        android:layout_marginEnd="221dp"
+        android:layout_marginBottom="89dp"
+        android:backgroundTint="#fafafa"
+        android:fontFamily="@font/asap_bold"
+        android:text="Unplug items"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF"
+    tools:context=".menu_screen">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="276dp"
+        android:background="@drawable/gradient_background" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="139dp"
+        android:layout_height="133dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="137dp"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="35dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="369dp"
+        android:layout_marginBottom="258dp"
+        app:srcCompat="@drawable/menu_bar" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="205dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="278dp"
+        android:text="Tomorrow Ready"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        app:fontFamily="@font/asap_bold" />
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="297dp"
+        android:layout_marginEnd="292dp"
+        android:layout_marginBottom="393dp"
+        android:text="Services"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:fontFamily="@font/asap_bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="336dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="339dp"
+        android:text="To assist and guide users, providing a standard care services."
+        android:textColor="#606060"
+        android:textSize="14sp"
+        app:fontFamily="@font/quicksand_bold" />
+
+    <Button
+        android:id="@+id/button_plan"
+        android:layout_width="180dp"
+        android:layout_height="165dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="395dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="206dp"
+        android:text="@string/plan"
+        android:textSize="10dp"
+        app:backgroundTint="#b70f0a"
+        app:cornerRadius="20sp"
+        app:icon="@drawable/plan"
+        app:iconGravity="textTop"
+        app:iconSize="75dp" />
+
+    <Button
+        android:id="@+id/button2_updates"
+        android:layout_width="180dp"
+        android:layout_height="165dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="395dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="206dp"
+        android:text="@string/updates"
+        android:textSize="10dp"
+        app:backgroundTint="#b70f0a"
+        app:cornerRadius="20sp"
+        app:icon="@drawable/disaster"
+        app:iconGravity="textTop"
+        app:iconSize="72dp" />
+
+    <Button
+        android:id="@+id/btn_compass"
+        android:layout_width="180dp"
+        android:layout_height="165dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="540dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="65dp"
+        android:text="@string/donation"
+        android:textSize="10dp"
+        app:backgroundTint="#b70f0a"
+        app:cornerRadius="20sp"
+        app:icon="@drawable/compassbtn"
+        app:iconGravity="textTop"
+        app:iconSize="72dp" />
+
+    <Button
+        android:id="@+id/button4_hotline"
+        android:layout_width="180dp"
+        android:layout_height="165dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="540dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="63dp"
+        android:text="@string/hotline"
+        android:textSize="10dp"
+        app:backgroundTint="#b70f0a"
+        app:cornerRadius="20sp"
+        app:icon="@drawable/hotline"
+        app:iconGravity="textTop"
+        app:iconSize="72dp" />
+
+</RelativeLayout>
+

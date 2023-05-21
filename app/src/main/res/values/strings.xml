@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Tomorrow Ready</string>
+    <string name="title"><u>T R</u></string>
+    <string name="forgot_pass"><u>Forgot Password?</u></string>
+    <string name="landslide_description">landslide description option 1
+        1. The Project implements mobile computing features such as: At most 2 of the following:
+
+a. Monitor the usage of battery consumption per app.
+
+b. Plot the location on google Maps and calculate start location and destination.
+
+c. Integrate sensor networks (for example gestures)
+
+Note. Make sure the UI integrates what the discussion that we have in this course.
+
+Must consider the low power computing techniques and security.
+
+
+Submit a progress from your project.
+
+Documentation with compiled codes and sample output.
+Score will defend on your progress. </string>
+    <string name="plan">Preparedness Plan</string>
+    <string name="updates">Monitoring Updates</string>
+    <string name="donation">Donation Drive</string>
+    <string name="hotline">Emergency Hotline</string>
+</resources>

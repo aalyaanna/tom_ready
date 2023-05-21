@@ -1,18 +1,21 @@
 package com.example.tom_ready;
 
+import androidx.appcompat.app.AppCompatActivity;
+import android.os.Bundle;
+
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
-import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
-import android.os.Bundle;
+import android.hardware.SensorEventListener;
+
 import android.view.animation.Animation;
 import android.view.animation.RotateAnimation;
+
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import androidx.appcompat.app.AppCompatActivity;
+public class compasstool extends AppCompatActivity implements SensorEventListener {
 
-public class CompassTool extends AppCompatActivity implements SensorEventListener {
     // device sensor manager
     private SensorManager SensorManage;
     // define the compass picture that will be use

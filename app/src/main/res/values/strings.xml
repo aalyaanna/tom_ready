@@ -22,6 +22,6 @@ Documentation with compiled codes and sample output.
 Score will defend on your progress. </string>
     <string name="plan">Preparedness Plan</string>
     <string name="updates">Monitoring Updates</string>
-    <string name="donation">Donation Drive</string>
+    <string name="compass">Compass</string>
     <string name="hotline">Emergency Hotline</string>
 </resources>

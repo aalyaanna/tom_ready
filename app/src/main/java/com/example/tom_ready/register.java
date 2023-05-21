@@ -107,7 +107,7 @@ public class register extends AppCompatActivity {
                             public void onComplete(@NonNull Task<AuthResult> task) {
                                 if (task.isSuccessful()){
                                     Toast.makeText(register.this, "Registration is Successful.", Toast.LENGTH_SHORT).show();
-                                    Intent intent = new Intent(register.this, menu_screen.class);
+                                    Intent intent = new Intent(register.this, main_menu.class);
                                     startActivity(intent);
                                     finish();
                                 } else {

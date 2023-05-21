@@ -69,22 +69,22 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
+
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="361dp"
-        android:layout_height="111dp"
+        android:layout_width="359dp"
+        android:layout_height="222dp"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="20dp"
-        android:layout_marginBottom="248dp"
-        android:fontFamily="@font/quicksand_bold"
+        android:layout_marginBottom="136dp"
+        android:fontFamily="@font/asap_bold"
         android:text="@string/landslide_description"
         android:textSize="20dp"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
-
 
     <Button
         android:id="@+id/callemergencybtn"

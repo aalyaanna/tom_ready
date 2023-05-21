@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFF"
-    tools:context=".menu_screen">
+    tools:context=".main_menu">
 
     <View
         android:layout_width="match_parent"
@@ -92,7 +92,7 @@
         android:text="To assist and guide users, providing a standard care services."
         android:textColor="#606060"
         android:textSize="14sp"
-        app:fontFamily="@font/quicksand_bold" />
+        app:fontFamily="@font/asap_bold" />
 
     <Button
         android:id="@+id/button_plan"
@@ -142,7 +142,7 @@
         android:layout_marginTop="540dp"
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="65dp"
-        android:text="@string/donation"
+        android:text="@string/compass"
         android:textSize="10dp"
         app:backgroundTint="#b70f0a"
         app:cornerRadius="20sp"

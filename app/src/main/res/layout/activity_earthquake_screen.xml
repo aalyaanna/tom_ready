@@ -84,7 +84,7 @@
         android:layout_marginTop="376dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="244dp"
-        android:fontFamily="@font/quicksand_bold"
+        android:fontFamily="@font/asap_bold"
         android:text="Learn how to protect yourself and your family from a home fire. Put knowledges into practices and develop habits."
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
